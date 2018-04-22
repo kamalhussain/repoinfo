@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      div.col-8.col-left-2
+
+        h1
+          | Latest commit
+
+        URL: b
+        table.table.table-bordered
+          thead
+            tr
+              td
+                b
+                  | URL
+              td
+                b
+                  | Branch
+              td
+                b
+                  | Commit
+
+          tbody
+            tr
+              td
+                | #{url}
+              td
+                | #{branch}
+              td
+                | #{sha}
+
