@@ -9,7 +9,7 @@ The pre-built docker image has already been uploaded to the DockerHub. Run the f
 ```bash
 docker run -p 3000:3000 -e GITHUB_BRANCH='4.2-branch' -e GITHUB_URL='https://github.com/WordPress/WordPress.git' -d kamalhussain/repoinfo:1.0
 ```
-Point the browser to http://localhost:3000
+Point the browser to http://localhost:3000/repo
 
 #### Option 2: Run nodejs program manually
 Follow these instructions to standup the nodejs program:
@@ -19,4 +19,4 @@ Follow these instructions to standup the nodejs program:
 * Set environment variables GITHUB_URL and GITHUB_BRANCH (On Linux, use "export GITHUB_URL="..")
 * Run "npm start"
 
-Point the browser to http://localhost:3000
+Point the browser to http://localhost:3000/repo
